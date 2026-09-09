@@ -1,0 +1,20 @@
+.container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+.part{
+    width:50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first {
+    background-color: orange;
+}
+
+.second {
+    background-color: blue;
+}

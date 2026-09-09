@@ -1,0 +1,42 @@
+.container {
+    width: 450px;
+    height: 120px;
+    border: 2px dotted black;
+    display: flex;
+}
+.static-container .box {
+    position: static;
+}
+.box{
+   
+    width:120px;
+    height: 120px;
+    color:black;
+    background-color: red;
+    border-right: 2px solid white;
+    font-size: 18px;
+}
+.box2{
+    position: static;
+     width:120px;
+    height: 120px;
+    color:black;
+    font-size: 18px;
+     background-color: green;
+
+}
+
+.relative-container .box2{
+    position: relative;
+    top: 18px;
+    left:18px;
+}
+.absolute-container{
+    position: relative;
+    width: 340px;
+}
+.absolute-container .box2{
+position: absolute;
+    left: 20px;
+    top: 10px;
+}
